@@ -72,3 +72,24 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# React Native
+android/build/
+android/.gradle/
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+
+# React Native Bundler
+.bundle/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
